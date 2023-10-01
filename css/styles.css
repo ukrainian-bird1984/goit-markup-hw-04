@@ -239,7 +239,6 @@ p {
     width: 264px;
     background-color: #e7e9fc;
     height: 112px;
-    padding: 0 auto;
 }
 
 .strategy-icon-about,
@@ -283,10 +282,8 @@ p {
     background-color: #FFFFFF;
     flex-basis: 264px;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px,
-    box-shadow: 0 2 1 0 #2E2F42,
-    0 1 1 0 #2E2F42,
-    0 1 6 0 #2E2F42;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 #2E2F42, 0 1px 1px 0 #2E2F42, 0 1px 6px 0 #2E2F42;
 }
 
 .our-team-worker {
@@ -382,9 +379,7 @@ p {
 
 .our-portfolio-item:hover,
 .our-portfolio-item:focus {
-    box-shadow: 0 2 1 0 #2E2F42,
-    0 1 1 0 #2E2F42
-    0 1 6 0 #2E2F42;
+    box-shadow: 0 2px 1px 0 #2E2F42, 0 1px 1px 0 #2E2F42, 0 1px 6px 0 #2E2F42;
 }
 
     .our-portfolio-name {
@@ -457,8 +452,30 @@ p {
     margin-left: 540px;
 }
 
-.p-social {
+.footer-p-social {
 font-weight: 500;
-line-height 1.5;
+line-height: 1.5;
 color: #fff;
+}
+
+.footer-icons {
+    list-style-type: none;
+    display: block;
+    gap: 16px;
+    fill: currentColor;
+}
+
+.footer-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #4D5AE5;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #31d0aa;
 }
