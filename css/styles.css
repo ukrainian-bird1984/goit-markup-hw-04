@@ -206,7 +206,7 @@ p {
     height: 56px;
     border: none;
     border-radius: 4px;
-    transition-property: background-color, cursor;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -214,7 +214,6 @@ p {
 .effective-button:hover,
 .effective-button:focus {
     background-color: #404BBF;
-    cursor: pointer;
 }
 
 .visually-hidden {
@@ -330,6 +329,21 @@ p {
 .our-team-icons {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #f4f4fd;
+}
+
+.our-team-social {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 .our-team-link {
@@ -343,9 +357,10 @@ p {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team-social:hover,
-.our-team-social:focus {
+.our-team-link:hover,
+.our-team-link:focus {
     color: #31d0aa;
+    background-color: #404bbf;
 }
 
 /* ===============SECTION 4============== */
@@ -382,14 +397,41 @@ p {
     flex-basis: 360px;
     width: calc((100% - 48px) / 3);
     box-shadow: none;
-    transition-property: box-shadow;
+    transition-property: box-shadow, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-portfolio-image {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transition-property: translateY;
+    transform: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-portfolio-image:hover,
+.our-portfolio-image:focus, {
+    transform: translateY(100%);
 }
 
 .our-portfolio-item:hover,
 .our-portfolio-item:focus {
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
+
+.our-portfolio-image {
+    position: relative;
+    overflow: hidden;
 }
 
 .our-portfolio-name {
