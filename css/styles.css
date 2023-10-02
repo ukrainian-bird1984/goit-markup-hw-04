@@ -413,13 +413,13 @@ p {
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-    transition-property: translateY;
-    transform: 250ms;
+    transition-property: transform;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio-image:hover,
-.our-portfolio-image:focus, {
+.our-portfolio-image:focus {
     transform: translateY(100%);
 }
 
