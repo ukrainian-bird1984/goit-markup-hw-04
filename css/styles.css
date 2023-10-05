@@ -407,7 +407,8 @@ p {
     flex-basis: 360px;
     width: calc((100% - 48px) / 3);
     box-shadow: none;
-    transition-property: box-shadow, transform;
+    transition-property: transform;
+    transition-property: box-shadow,
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -430,6 +431,7 @@ p {
 
 .our-portfolio-item:hover .our-portfolio-text {
     transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-portfolio-text {
