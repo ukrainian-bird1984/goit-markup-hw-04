@@ -518,7 +518,6 @@ p {
 }
 
 .footer-p-social {
-    width: 96px;
     height: 24px;
     font-family: Roboto;
     font-weight: 500;
@@ -526,7 +525,9 @@ p {
     line-height: 1.5;
     display: block;
     color: #FFFFFF;
-    margin-bottom: 16px;}
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+}
 
 .footer-icons {
     list-style-type: none;
