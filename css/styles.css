@@ -38,7 +38,7 @@ ul {
 
 .nav-logo {
     font-family: 'Raleway', sans-serif;
-    color: #4D5AE5;
+    color: #404bbf;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -247,6 +247,9 @@ p {
     background-color: #f4f4fd;
     height: 112px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .strategy-icon-about,
@@ -420,6 +423,7 @@ p {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+
 .our-portfolio-text {
     transform: translateY(100%);
 }
@@ -544,3 +548,6 @@ p {
     background-color: #31d0aa;
 }
 
+.footer-icon {
+    fill: #f4f4fd;
+}
