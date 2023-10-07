@@ -53,14 +53,9 @@ ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navlink.current-navlink {
+.current-navlink {
     color: #404bbf;
 }
-
-.navlink.current-navlink:hover {
-    color: #404BBF;
-}
-
 
 .current-navlink::after {
     content: '';
@@ -120,7 +115,7 @@ ul {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.current-navlink,
 .navlink:hover,
 .navlink:focus {
     color: #404BBF;
