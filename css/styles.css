@@ -111,9 +111,7 @@ ul {
     padding: 24px 0;
     text-decoration: none;
     display: block;
-    transition-property: border-bottom;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transitiоn: color 250ms cubic-beizer(0.4, 0, 0.2, 1);
 }
 .current-navlink,
 .navlink:hover,
