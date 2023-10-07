@@ -52,6 +52,9 @@ ul {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.navlink.current-navlink {
+    color: #404bbf;
+}
 
 .current-navlink::after {
     content: '';
@@ -171,7 +174,7 @@ p {
     background-color: #2E2F42;
     padding: 188px 0;
     max-width: 1440px;
-    margin: 0;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -418,11 +421,13 @@ p {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-item:hover .our-portfolio-text {
-    transform: translateY(0%);
+.our-portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.our-portfolio-text:hover {
+    transform: translateY(0%);
+}
 
 .our-portfolio-text {
     transform: translateY(100%);
