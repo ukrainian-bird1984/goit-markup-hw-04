@@ -111,7 +111,7 @@ ul {
     padding: 24px 0;
     text-decoration: none;
     display: block;
-    transitiоn: color 250ms cubic-beizer(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-beizer(0.4, 0, 0.2, 1);
 }
 .current-navlink,
 .navlink:hover,
